@@ -63,6 +63,8 @@ footer{text-align:center;font-size:11px;line-height:1.55;color:var(--muted)}
 
 /* Shorter screens: trim secondary lines so everything still fits without scrolling */
 @media (max-height:700px){ .promise .more{display:none} }
+/* 6 topic chips (2026-11-18): keep one screen on shorter phones */
+@media (max-height:780px){ .chips{gap:4px} .chips p{padding:5px 8px;font-size:12.5px} footer .tag{display:none} }
 @media (max-height:620px){
   .tx small{display:none}
   .rule{display:none}
